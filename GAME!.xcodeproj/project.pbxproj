@@ -15,6 +15,12 @@
 		4105A6A01C74605E00631681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4105A69E1C74605E00631681 /* LaunchScreen.storyboard */; };
 		4105A6AB1C74605E00631681 /* GAME_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4105A6AA1C74605E00631681 /* GAME_Tests.m */; };
 		4105A6B61C74605E00631681 /* GAME_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4105A6B51C74605E00631681 /* GAME_UITests.m */; };
+		4105A6C51C7463CA00631681 /* FullSizeRender.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4105A6C41C7463CA00631681 /* FullSizeRender.jpg */; };
+		4105A6CC1C74673300631681 /* FullSizeRender1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4105A6CA1C74673300631681 /* FullSizeRender1.jpg */; };
+		4105A6CD1C74673300631681 /* FullSizeRender2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4105A6CB1C74673300631681 /* FullSizeRender2.jpg */; };
+		4105A6D01C746D9800631681 /* gameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4105A6CF1C746D9800631681 /* gameViewController.m */; };
+		4105A6D31C746E3400631681 /* settingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4105A6D21C746E3400631681 /* settingViewController.m */; };
+		4105A6D61C746E3F00631681 /* introViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4105A6D51C746E3F00631681 /* introViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,15 @@
 		4105A6B11C74605E00631681 /* GAME!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GAME!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4105A6B51C74605E00631681 /* GAME_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAME_UITests.m; sourceTree = "<group>"; };
 		4105A6B71C74605E00631681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4105A6C41C7463CA00631681 /* FullSizeRender.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FullSizeRender.jpg; sourceTree = "<group>"; };
+		4105A6CA1C74673300631681 /* FullSizeRender1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FullSizeRender1.jpg; sourceTree = "<group>"; };
+		4105A6CB1C74673300631681 /* FullSizeRender2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FullSizeRender2.jpg; sourceTree = "<group>"; };
+		4105A6CE1C746D9800631681 /* gameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameViewController.h; sourceTree = "<group>"; };
+		4105A6CF1C746D9800631681 /* gameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gameViewController.m; sourceTree = "<group>"; };
+		4105A6D11C746E3400631681 /* settingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settingViewController.h; sourceTree = "<group>"; };
+		4105A6D21C746E3400631681 /* settingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settingViewController.m; sourceTree = "<group>"; };
+		4105A6D41C746E3F00631681 /* introViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = introViewController.h; sourceTree = "<group>"; };
+		4105A6D51C746E3F00631681 /* introViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = introViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +96,7 @@
 		4105A6841C74605E00631681 = {
 			isa = PBXGroup;
 			children = (
+				4105A6C31C7463CA00631681 /* picSource */,
 				4105A68F1C74605E00631681 /* GAME! */,
 				4105A6A91C74605E00631681 /* GAME!Tests */,
 				4105A6B41C74605E00631681 /* GAME!UITests */,
@@ -105,6 +121,12 @@
 				4105A6941C74605E00631681 /* AppDelegate.m */,
 				4105A6961C74605E00631681 /* ViewController.h */,
 				4105A6971C74605E00631681 /* ViewController.m */,
+				4105A6CE1C746D9800631681 /* gameViewController.h */,
+				4105A6CF1C746D9800631681 /* gameViewController.m */,
+				4105A6D11C746E3400631681 /* settingViewController.h */,
+				4105A6D21C746E3400631681 /* settingViewController.m */,
+				4105A6D41C746E3F00631681 /* introViewController.h */,
+				4105A6D51C746E3F00631681 /* introViewController.m */,
 				4105A6991C74605E00631681 /* Main.storyboard */,
 				4105A69C1C74605E00631681 /* Assets.xcassets */,
 				4105A69E1C74605E00631681 /* LaunchScreen.storyboard */,
@@ -138,6 +160,16 @@
 				4105A6B71C74605E00631681 /* Info.plist */,
 			);
 			path = "GAME!UITests";
+			sourceTree = "<group>";
+		};
+		4105A6C31C7463CA00631681 /* picSource */ = {
+			isa = PBXGroup;
+			children = (
+				4105A6C41C7463CA00631681 /* FullSizeRender.jpg */,
+				4105A6CA1C74673300631681 /* FullSizeRender1.jpg */,
+				4105A6CB1C74673300631681 /* FullSizeRender2.jpg */,
+			);
+			path = picSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +280,10 @@
 			files = (
 				4105A6A01C74605E00631681 /* LaunchScreen.storyboard in Resources */,
 				4105A69D1C74605E00631681 /* Assets.xcassets in Resources */,
+				4105A6CD1C74673300631681 /* FullSizeRender2.jpg in Resources */,
 				4105A69B1C74605E00631681 /* Main.storyboard in Resources */,
+				4105A6CC1C74673300631681 /* FullSizeRender1.jpg in Resources */,
+				4105A6C51C7463CA00631681 /* FullSizeRender.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +308,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4105A6D01C746D9800631681 /* gameViewController.m in Sources */,
+				4105A6D61C746E3F00631681 /* introViewController.m in Sources */,
 				4105A6981C74605E00631681 /* ViewController.m in Sources */,
+				4105A6D31C746E3400631681 /* settingViewController.m in Sources */,
 				4105A6951C74605E00631681 /* AppDelegate.m in Sources */,
 				4105A6921C74605E00631681 /* main.m in Sources */,
 			);
